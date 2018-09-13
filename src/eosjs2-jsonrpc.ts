@@ -80,12 +80,6 @@ export interface GetRawAbiResult {
   abi: string;
 }
 
-export interface TransactionConfig {
-  broadcast?: boolean;
-  blocksBehind?: number;
-  expireSeconds?: number;
-}
-
 /** Arguments for `push_transaction` */
 export interface PushTransactionArgs {
   signatures: string[];

@@ -65,6 +65,8 @@ export interface CachedAbi {
 
   /** abi in structured form */
   abi: Abi;
+
+  /** code hash */
   codeHash: string;
 }
 
