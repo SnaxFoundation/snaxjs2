@@ -2,11 +2,11 @@
  * @module JSON-RPC
  */
 
-// copyright defined in eosjs/LICENSE.txt
+// copyright defined in snaxjs/LICENSE.txt
 
-import { AuthorityProvider, AuthorityProviderArgs } from "./eosjs-api";
-import { convertLegacyPublicKeys } from "./eosjs-numeric";
-import { RpcError } from "./eosjs-rpcerror";
+import { AuthorityProvider, AuthorityProviderArgs } from "./snaxjs-api";
+import { convertLegacyPublicKeys } from "./snaxjs-numeric";
+import { RpcError } from "./snaxjs-rpcerror";
 
 /** Structured format for abis */
 export interface Abi {

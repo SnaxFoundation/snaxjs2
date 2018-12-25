@@ -2,14 +2,14 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        eosjs: './src/eosjs-api.ts',
-        eosjs_jsonrpc: './src/eosjs-jsonrpc.ts',
-        eosjs_jssig: './src/eosjs-jssig.ts',
+        snaxjs: './src/snaxjs-api.ts',
+        snaxjs_jsonrpc: './src/snaxjs-jsonrpc.ts',
+        snaxjs_jssig: './src/snaxjs-jssig.ts',
     },
     devtool: 'inline-source-map',
     mode: 'development',
     output: {
-        library: 'eosjs',
+        library: 'snaxjs',
         pathinfo: true,
     },
     module: {

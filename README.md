@@ -1,1 +1,1 @@
-eosjs2 is now [eosjs](https://github.com/EOSIO/eosjs)
+snaxjs2 is now [snaxjs](https://github.com/SNAX/snaxjs)
